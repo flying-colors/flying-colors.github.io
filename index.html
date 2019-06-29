@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>Instant - Bootstrap Personal Template</title>
+<title>Portfolio Site</title>
 <meta name=”robots” content=”noindex,follow” />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="" name="keywords">
@@ -10,13 +10,9 @@
 <!-- Favicons -->
 <link href="/img/favicon.png" rel="icon">
 <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-<!-- Bootstrap CSS File -->
+<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
 <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- Libraries CSS Files -->
 <link href="/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<!-- Main Stylesheet File -->
 <link href="/css/styles.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -42,10 +38,10 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/works.html" class="smoothscroll">Works</a></li>
-          <li><a href="/contact.html" class="smoothscroll">Contact</a></li>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#skils" class="smoothscroll">Skils</a></li>
+          <li><a href="#works" class="smoothscroll">Works</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -63,11 +59,13 @@
 	</div>
     <!-- /container -->
   </div>
-
-  <section id="works"></section>
   <div class="container">
-    <div class="row centered mt mb">
-      <h1>ポートフォリオ</h1>
+	<div class="row centered mt mb" id="profile">
+		<h2>自己紹介</h2>
+		<p class="">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
+	</div>
+	<div class="row centered mt mb" id="skils">
+		<h2>スキル</h2>
 		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 		<a href="works.html"><img src="/img/portfolio/folio01.png" class="img-responsive"></a>
 		</div>
@@ -77,16 +75,19 @@
 		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 		<a href="works.html"><img src="/img/portfolio/folio03.png" class="img-responsive"></a>
 		</div>
+	</div>
+    <div class="row centered mt mb" id="works">
+      <h2>制作実績</h2>
 		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-		<a href="works.html"><img src="/img/portfolio/folio04.png" class="img-responsive"></a>
+		<a href="works.html"><img src="/img/portfolio/folio01.png" class="img-responsive"></a>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-		<a href="works.html"><img src="/img/portfolio/folio05.png" class="img-responsive"></a>
+		<a href="works.html"><img src="/img/portfolio/folio02.png" class="img-responsive"></a>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-		<a href="works.html"><img src="/img/portfolio/folio06.png" class="img-responsive"></a>
+		<a href="works.html"><img src="/img/portfolio/folio03.png" class="img-responsive"></a>
 		</div>
-    </div>
+	</div>
   </div>
 
   <!-- <div id="social">
