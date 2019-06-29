@@ -63,16 +63,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
   color: #fff;
 }
 
 .navbar-default {
   border-color: transparent;
-  background-color: #00d1b2;
+  background-color: rgba(0, 209, 178, 0.9);
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: transparent;
 }
@@ -88,12 +91,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-toggle {
-  border: none;
+  border: 1px solid #fff;
   border-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover {
-  background: #666;
+  background: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
