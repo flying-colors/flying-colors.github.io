@@ -4,93 +4,85 @@
 * Author: TemplateMag.com
 * License: https://templatemag.com/license/
 */
-
 /* ==========================================================================
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
-
-
 ::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
+  background: #f2c2c9;
+  color: #a4003a;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
+  background: #16a085;
+  color: #a4003a;
+  text-shadow: none;
 }
 
 /*
  * A better looking default horizontal rule
  */
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .centered {
-	text-align: center
+  text-align: center;
 }
 
 .mt {
-	margin-top: 80px;
+  margin-top: 80px;
 }
 
 .mb {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 /* ==========================================================================
    General styles
    ========================================================================== */
-
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
-    color: #4a4a4a;
+  font-weight: 700;
+  color: #4a4a4a;
 }
 
-
 .navbar-brand {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-	color: #1abc9c;
+  color: #1abc9c;
 }
 
 .navbar-default {
-	border-color: transparent;
+  border-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
-	background-color: transparent;
+  color: #1abc9c;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #1abc9c;
+  color: #1abc9c;
 }
 
 .navbar-default .navbar-toggle {
@@ -105,43 +97,36 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
-
 #headerwrap {
-	background: url(/img/back.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  /* background: url(/img/back.jpg) no-repeat center top; */
+  margin-top: -70px;
+  padding-top: 200px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-color: #ccc;
+  background-size: 100%;
+  background-size: cover;
 }
 
 #headerwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 #headerwrap h4 {
-	font-weight: 400;
-	color: #ffffff
+  font-weight: 400;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -151,125 +136,108 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
 }
 
 #social i {
-	font-size: 40px;
-	color: #4a4a4a
+  font-size: 40px;
+  color: #4a4a4a;
 }
 
 #social i:hover {
-	color: #1abc9c
+  color: #1abc9c;
 }
 
 #footerwrap {
-	padding-top: 70px;
-	padding-bottom: 50px;
-	background-color: #2f2f2f;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #2f2f2f;
 }
 
 #footerwrap p {
-	color: #f2f2f2;
-	margin-left: 10px;
+  color: #f2f2f2;
+  margin-left: 10px;
 }
 
 #workwrap {
-	background: url(/img/work.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  /* background: url(/img/work.jpg) no-repeat center top; */
+  margin-top: -70px;
+  padding-top: 200px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-color: #ccc;
+  background-size: 100%;
+  background-size: cover;
 }
 
 #workwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 #workwrap h4 {
-	font-weight: 400;
-	color: #ffffff
+  font-weight: 400;
+  color: #ffffff;
 }
 
 #aboutwrap {
-	background: url(/img/about.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  /* background: url(/img/about.jpg) no-repeat center top; */
+  margin-top: -70px;
+  padding-top: 200px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-color: #ccc;
+  background-size: 100%;
+  background-size: cover;
 }
-
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
-
 /* Contact Form */
-
 #contactwrap {
-	background: url(/img/contact.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
+  background: url(/img/contact.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
   background-size: 100%;
   background-size: cover;
 }
 
 #contactwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 60px;
-	font-weight: bold;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 #contactwrap h4 {
-	font-weight: 400;
-	color: #ffffff
+  font-weight: 400;
+  color: #ffffff;
 }
 
 #contact {
@@ -282,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-form label {
-   color: #999;
+  color: #999;
 }
 
 .contact-form input, .contact-form textarea {
@@ -297,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.contact-form .form-send button  {
+.contact-form .form-send button {
   background: #1abc9c;
   border: 0;
   padding: 14px 40px;
@@ -346,7 +314,6 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -358,7 +325,6 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -386,7 +352,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Copyrights */
-
 #copyrights {
   background: #222222;
   padding: 20px 0;
