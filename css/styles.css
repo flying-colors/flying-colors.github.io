@@ -106,35 +106,26 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
-#headerwrap {
-  margin-top: -70px;
-  padding-top: 200px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
+.headerwrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
   width: 100%;
   border-bottom: 1px solid #ccc;
-  background-size: 100%;
-  background-size: cover;
+  text-align: center;
 }
 
-#headerwrap h1 {
+.headerwrap h1 {
   padding-top: 10px;
   padding-bottom: 20px;
   letter-spacing: 4px;
-  font-size: 80px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: normal;
 }
 
-#headerwrap h4 {
+.headerwrap h4 {
   font-weight: 400;
-}
-
-@media (max-width: 768px) {
-  #headerwrap {
-    padding-top: 180px;
-  }
 }
 
 #social {
@@ -152,18 +143,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #1abc9c;
 }
 
-#footerwrap {
+.footerwrap {
   padding-top: 70px;
   padding-bottom: 50px;
   background-color: #2f2f2f;
 }
 
-#footerwrap p {
+.footerwrap p {
   color: #f2f2f2;
   margin-left: 10px;
 }
 
-#workwrap {
+.workwrap {
   background: url(/img/work.jpg) no-repeat center top;
   margin-top: -70px;
   padding-top: 250px;
@@ -176,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-#workwrap h1 {
+.workwrap h1 {
   color: #ffffff;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -185,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-#workwrap h4 {
+.workwrap h4 {
   font-weight: 400;
   color: #ffffff;
 }
@@ -352,21 +343,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Copyrights */
-#copyrights {
+.copyrights {
   background: #fafafa;
   padding: 20px 0;
   text-align: center;
 }
 
-#copyrights p {
+.copyrights p {
   margin-bottom: 5px;
   /* color: #fff; */
 }
 
-#copyrights a {
+.copyrights a {
   color: #1abc9c;
 }
 
 .credits {
   /* color: #999; */
+}
+
+.label {
+  font-size: 24px;
+  line-height: 2;
 }
