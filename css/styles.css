@@ -36,11 +36,11 @@ hr {
 }
 
 .mt {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .mb {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
@@ -56,7 +56,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  color: #4a4a4a;
+  color: #333;
 }
 
 .navbar-brand {
@@ -64,16 +64,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-  color: #1abc9c;
+  color: #fff;
 }
 
 .navbar-default {
   border-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #00d1b2;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #1abc9c;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -81,8 +81,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #1abc9c;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .navbar-default .navbar-toggle {
@@ -102,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
    Wrap Sections
    ========================================================================== */
 #headerwrap {
-  /* background: url(/img/back.jpg) no-repeat center top; */
   margin-top: -70px;
   padding-top: 200px;
   text-align: center;
@@ -110,13 +111,11 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center center;
   min-height: 500px;
   width: 100%;
-  background-color: #ccc;
   background-size: 100%;
   background-size: cover;
 }
 
 #headerwrap h1 {
-  color: #ffffff;
   padding-top: 10px;
   padding-bottom: 20px;
   letter-spacing: 4px;
@@ -126,7 +125,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
   font-weight: 400;
-  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -351,14 +349,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copyrights */
 #copyrights {
-  background: #222222;
+  background: #fafafa;
   padding: 20px 0;
   text-align: center;
 }
 
 #copyrights p {
   margin-bottom: 5px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #copyrights a {
@@ -366,5 +364,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .credits {
-  color: #999;
+  /* color: #999; */
 }
