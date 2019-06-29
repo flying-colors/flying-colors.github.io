@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 500px;
     width: 100%;
+    border-bottom: 1px solid #ccc;
     background-size: 100%;
     background-size: cover;
 }
@@ -218,11 +219,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+	opacity: 0.6;
 }
 
 
