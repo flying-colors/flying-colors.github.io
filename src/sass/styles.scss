@@ -384,3 +384,25 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     line-height: 2;
 }
+
+.project{
+    margin-top: 30px;
+    .project__title {
+        margin: 0;
+        font-size: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        letter-spacing: 3px;
+    }
+    .project__item {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .project__detail {
+        width: 20%;
+    }
+    .project__description {
+        flex: 2;
+    }
+}
