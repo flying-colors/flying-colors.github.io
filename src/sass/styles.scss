@@ -442,6 +442,7 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: bold;
       border: 1px solid rgb(0, 209, 178);
       border-radius: 5px;
+      background-color: #fff;
       transition-duration: .3s;
       &:hover {
         color: #fff;
@@ -459,7 +460,10 @@ h1, h2, h3, h4, h5, h6 {
     }
     @media screen and (max-width: 480px) {
       padding: 20px 0 50px;
-      border-bottom: 1px solid #ccc;
+      // border-bottom: 1px solid #ccc;
+      &:nth-child(2n) {
+        background-color: #fafafa;
+      }
       &:last-child {
         border-bottom: none;
       }
