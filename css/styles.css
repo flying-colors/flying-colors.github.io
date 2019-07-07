@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #00d1b2;
   font-size: 16px;
   font-weight: bold;
-  border: 1px solid #00d1b2;
+  border: 1px solid #cef7f0;
   border-radius: 5px;
   background-color: #fff;
   transition-duration: .3s;
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0 50px;
   }
   .project:nth-child(2n) {
-    background-color: #fafafa;
+    background-color: #ebfdfb;
   }
   .project:last-child {
     border-bottom: none;
