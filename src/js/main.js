@@ -9,5 +9,11 @@
           scrollTop: position
         }, speed, "swing");
         return false;
-      });
+	});
+	$('[data-toggle="collapse"]').on('click', () =>{
+		$('.collapse').slideToggle();
+	})
+	$('.collapse a').on('click', ()=>{
+		$('.collapse').slideUp();
+	});
 })();

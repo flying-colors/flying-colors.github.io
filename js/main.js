@@ -13,4 +13,10 @@
     }, speed, "swing");
     return false;
   });
+  $('[data-toggle="collapse"]').on('click', function () {
+    $('.collapse').slideToggle();
+  });
+  $('.collapse a').on('click', function () {
+    $('.collapse').slideUp();
+  });
 })();
