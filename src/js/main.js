@@ -11,9 +11,9 @@
         return false;
 	});
 	$('[data-toggle="collapse"]').on('click', () =>{
-		$('.collapse').slideToggle();
+		$('.collapse').slideToggle('fast');
 	})
 	$('.collapse a').on('click', ()=>{
-		$('.collapse').slideUp();
+		$('.collapse').slideUp('fast');
 	});
 })();

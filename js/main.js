@@ -14,9 +14,9 @@
     return false;
   });
   $('[data-toggle="collapse"]').on('click', function () {
-    $('.collapse').slideToggle();
+    $('.collapse').slideToggle('fast');
   });
   $('.collapse a').on('click', function () {
-    $('.collapse').slideUp();
+    $('.collapse').slideUp('fast');
   });
 })();
