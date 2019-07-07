@@ -349,6 +349,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+  .copyrights {
+    margin-top: 0;
+  }
+}
+
 .copyrights p {
   margin-bottom: 5px;
   /* color: #fff; */
@@ -457,6 +463,9 @@ h1, h2, h3, h4, h5, h6 {
   .project {
     padding: 20px 0 50px;
     border-bottom: 1px solid #ccc;
+  }
+  .project:last-child {
+    border-bottom: none;
   }
 }
 

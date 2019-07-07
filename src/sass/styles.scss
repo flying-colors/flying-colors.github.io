@@ -366,6 +366,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 100px;
   padding: 20px 0;
   text-align: center;
+  @media screen and (max-width: 480px) {
+    margin-top: 0;
+  }
 }
 
 .copyrights p {
@@ -457,6 +460,9 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 480px) {
       padding: 20px 0 50px;
       border-bottom: 1px solid #ccc;
+      &:last-child {
+        border-bottom: none;
+      }
     }
 }
 
