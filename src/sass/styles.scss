@@ -454,6 +454,10 @@ h1, h2, h3, h4, h5, h6 {
         }
       }
     }
+    @media screen and (max-width: 480px) {
+      padding: 20px 0 50px;
+      border-bottom: 1px solid #ccc;
+    }
 }
 
 .capture {
